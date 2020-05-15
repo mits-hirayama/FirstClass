@@ -32,6 +32,7 @@ main {
 				width: 200px;;
 				background: red;
 				display: flex;
+				flex-grow: 0;
 }
 .leftside ul {
         list-style: none;
@@ -48,13 +49,21 @@ main {
 				box-sizing: border-box;
 				width: 100%;
 }
+.rightside {
+				display: flex;
+        flex-grow: 1;
+				background: skyblue;
+}
 .pic {
         width: 180px;
 				margin-right: 32px;
 				background: pink;
 }
 .desc {
+				display: flex;
         flex: 1;
+			  flex-wrap: wrap;;
+				overflow: scroll;
 }
 
 
@@ -62,7 +71,9 @@ html {
 				height:100%;
 }
 p {
+			 word-break: break-all;
        color: blue;
+			 font-size: 30px;
 }
 * {
         border-radius: 10px;
