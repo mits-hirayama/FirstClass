@@ -1,0 +1,48 @@
+html {
+        height:100%;
+}
+p {
+        color: blue;
+}
+* {
+        border-radius: 10px;
+				font-family: monospace;
+}
+header {
+        background: green;
+				height: 80px;
+				display: flex;
+				justify-content: space-between; 
+				align-items: center;;
+
+}
+.home {
+        height: 200px;
+}
+.list {
+}
+body {
+				height: 80%;
+}
+
+li {
+        list-style: none;
+				display: inline-block;
+				text-align:right;
+}
+main {
+        height:400px; 
+				overflow: scroll;
+				background-color: hsl( 60, 80%, 80%);
+				display: flex;
+				height: 100%;
+}
+
+footer {
+        background-color: white;
+}
+.button {
+				background-color: hsl(30,80%,80%);
+				text-align:right;
+}
+
