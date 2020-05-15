@@ -72,4 +72,6 @@ footer button {
 				background: hsl(210, 50%, 50%);
 				font-size: 24px;
 }
-
+footer button:hover {
+        background: #eee;
+}
