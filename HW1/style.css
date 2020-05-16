@@ -20,7 +20,6 @@ nav a:hover {
         background: #eee;
 }
 
-/*ここから*/
 main {
 				height: 540px;
         display: flex;
@@ -49,21 +48,21 @@ main {
 				box-sizing: border-box;
 				width: 100%;
 }
+/*ここから*/
+
 .rightside {
-				display: flex;
         flex-grow: 1;
 				background: skyblue;
+				overflow: scroll;
 }
-.pic {
+.pic img{
         width: 180px;
-				margin-right: 32px;
 				background: pink;
+				margin: 32px;
+				margin-bottom: 0px;;
+				float:left;
 }
 .desc {
-				display: flex;
-        flex: 1;
-			  flex-wrap: wrap;;
-				overflow: scroll;
 }
 
 
@@ -90,6 +89,7 @@ footer {
 				justify-content: flex-end; 
 				background: hsl(150, 50%, 50%);
 				align-items: center;
+				margin-top: 10px;
 }
 footer ul {
         list-style: none;
